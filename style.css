@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ................................... */
+/* #89ABE3, #EA738D  #1E2761, #408EC6,   */
+body{
+      height: auto;
+      width: 900px; 
+     
+}
+ .container{
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+   max-height: 120vh;
+   
+    
+} 
+.main-div{
+    width: 50%;
+    /* height: 110vh;  */
+    display: flex;
+    
+}
+.first-parent{
+    background-color: #89ABE3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    color: #1E2761 ;
+}
+.img-first{
+    height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+   
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+img{
+    height: 150px;
+   max-width: 150px;
+   border-radius: 50%;
+}
+.left-div{
+   padding: 20px;
+   height: 110vh;
+}
+/* ///////////////////////////////////////////////// */
+.section-1{
+    background-color: #1E2761;
+    height: 100%;
+    padding:20px;
+    padding-top: 30px;
+}
+.sec-div{
+    padding-left: 20px;
+    color: #89ABE3;
+}
+.contact{
+    border-bottom: 3px solid #89ABE3;
+    color: #89ABE3;
+   
+}
+.phone,.email {
+   margin-top: 12px;
+   margin-left: 20px;
+   color:white;
+}
+.num,.email-val{
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.skill-parent{
+    color: #89ABE3;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-bottom: 3px solid #89ABE3 ;
+}
+/* ....................................... */
+.skill-box-child{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #89ABE3;
+}
+.score{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+.hr1{
+    padding: 3px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: none;
+    height: 5px;
+    width: 80%;
+    background-color: #89ABE3;
+}
+.hr2{
+    padding: 3px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: none;
+    height: 5px;
+    width: 90%;
+    background-color: #89ABE3;
+}
+.hr3{
+    padding: 3px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: none;
+    height: 5px;
+    width: 85%;
+    background-color: #89ABE3;
+}
+.hr4{
+    padding: 3px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: none;
+    height: 5px;
+    width: 75%;
+    background-color: #89ABE3;
+}
+.hr5 ,.hr6 {
+    padding: 3px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: none;
+    height: 5px;
+    width: 80%;
+    background-color: #89ABE3;
+}
+.hr7{
+    padding: 3px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: none;
+    height: 5px;
+    width: 85%;
+    background-color: #89ABE3;
+}
+.last-div{
+    margin-left: 25px;
+    padding: 10px;
+    color: #89ABE3;
+}
+/* .......................... */
+.right-div{
+    background-color: #89ABE3;
+    width:100%;
+    margin-top: 20px;
+    height: 100%;
+    padding: 16.7px;
+}
+
+.side-div-1{
+   
+    width:100%;
+    padding: 10px;
+}
+.obj{
+    border-bottom: 3px solid #1E2761;
+    padding: 5px;
+    color: #1E2761;
+}
+.pp{
+    color: #1E2761;
+    padding-top: 10px;
+}
+.side-div-2{
+    padding: 10px;
+}
+/* /////////////////////// */
+.side-div-3{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 2fr;
+}
+.lorem{
+    padding: 10px;
+    font-size: 1rem;
+
+}
+.div-3{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr ;
+}
